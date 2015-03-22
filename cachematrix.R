@@ -10,7 +10,7 @@
 
 # An example of the usage of these two functions is as follows:
 # These may be entered into the prompt console in RStudio
-# > x <- matrix(rnorm(8), nrow = 2)           # Create a 2x2 square matrix named x
+# > x <- matrix(rnorm(4), nrow = 2)           # Create a 2x2 square matrix named x
 # > smx <- makeCacheMatrix(x)                 # Create the special matrix
 # > smx$get()                                 # Return the original square matrix
 # > cacheSolve(smx)                           # Return the inverse of the matrix
